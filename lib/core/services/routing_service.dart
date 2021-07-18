@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class NavigationService {
+class RoutingService {
   static final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 
   /// Go to next route screen

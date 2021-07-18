@@ -1,2 +1,3 @@
 // TODO: define all your path routes here
-const root = '/';
+const startup = '/';
+const login = 'login';
