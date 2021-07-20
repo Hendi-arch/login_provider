@@ -49,9 +49,9 @@ TextTheme appTextTheme({bool isLight = true}) {
   base = isLight ? ThemeData.light().textTheme : ThemeData.dark().textTheme;
   return base
       .copyWith(
-          headline4: base.headline4!.copyWith(fontSize: 34),
-          headline5: base.headline5!.copyWith(fontSize: 24),
-          headline6: base.headline6!.copyWith(fontSize: 18),
+          headline1: base.headline1!.copyWith(fontSize: 34),
+          headline2: base.headline2!.copyWith(fontSize: 24),
+          headline3: base.headline3!.copyWith(fontSize: 18),
           subtitle1: base.subtitle1!.copyWith(fontSize: 16),
           bodyText1: base.bodyText1!.copyWith(fontSize: 14),
           button: base.button!.copyWith(fontSize: 14),
