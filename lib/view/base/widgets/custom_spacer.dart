@@ -1,0 +1,30 @@
+import 'package:flutter/material.dart';
+
+final Widget onePx = const SizedBox(width: 1.0, height: 1.0);
+final Widget twoPx = const SizedBox(width: 2.0, height: 2.0);
+final Widget fourPx = const SizedBox(width: 4.0, height: 4.0);
+final Widget fourPointFivePx = const SizedBox(width: 4.5, height: 4.5);
+final Widget fivePx = const SizedBox(width: 5.0, height: 5.0);
+final Widget sixPx = const SizedBox(width: 6.0, height: 6.0);
+final Widget fourPointEighteenPx = const SizedBox(width: 4.18, height: 4.18);
+final Widget eightPx = const SizedBox(width: 8.0, height: 8.0);
+final Widget twelvePx = const SizedBox(width: 12.0, height: 12.0);
+final Widget fourteenPx = const SizedBox(width: 14.0, height: 14.0);
+final Widget fifteenPx = const SizedBox(width: 15.0, height: 15.0);
+final Widget sixteenPx = const SizedBox(width: 16.0, height: 16.0);
+final Widget eighteenPx = const SizedBox(width: 18.0, height: 18.0);
+final Widget twentyPx = const SizedBox(width: 20.0, height: 20.0);
+final Widget twentyFourPx = const SizedBox(width: 24.0, height: 24.0);
+final Widget twentyEightPx = const SizedBox(width: 28.0, height: 28.0);
+final Widget thirtyTwoPx = const SizedBox(width: 32.0, height: 32.0);
+final Widget thirtyFourPx = const SizedBox(width: 34.0, height: 34.0);
+
+final Widget thirtySixPx = const SizedBox(width: 36.0, height: 36.0);
+final Widget fortyPx = const SizedBox(width: 40.0, height: 40.0);
+final Widget fortyTwoPx = const SizedBox(width: 42.0, height: 42.0);
+final Widget fortyFourPx = const SizedBox(width: 44.0, height: 44.0);
+final Widget fortyEightPx = const SizedBox(width: 48.0, height: 48.0);
+final Widget fiftyTwoPx = const SizedBox(width: 52.0, height: 52.0);
+final Widget fiftySixPx = const SizedBox(width: 56.0, height: 56.0);
+final Widget sixtyFourPx = const SizedBox(width: 64.0, height: 64.0);
+final Widget seventyFivePx = const SizedBox(width: 75.0, height: 75.0);

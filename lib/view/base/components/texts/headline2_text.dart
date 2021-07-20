@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 class Headline2Text extends StatelessWidget {
   final String data;
-  final Color color;
-  const Headline2Text({Key? key, required this.data, required this.color}) : super(key: key);
+  final Color? color;
+  const Headline2Text({Key? key, required this.data, this.color}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

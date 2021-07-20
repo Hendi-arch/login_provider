@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login_provider/view/base/themes/colors/app_colors.dart';
 import 'components/dark_component.dart';
 import 'components/light_component.dart';
 
@@ -57,5 +58,8 @@ TextTheme appTextTheme({bool isLight = true}) {
           button: base.button!.copyWith(fontSize: 14),
           caption: base.caption!.copyWith(fontSize: 14, letterSpacing: -0.15),
           overline: base.overline!.copyWith(fontSize: 11))
-      .apply(fontFamily: 'Metropolis');
+      .apply(
+        fontFamily: 'Metropolis',
+        displayColor: isLight ? kBlack : kWhite,
+      );
 }
